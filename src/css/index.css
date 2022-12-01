@@ -1,0 +1,66 @@
+.banner_sx{
+    background-color: #9acfea;
+    position: relative;
+    z-index: 1032;
+    height: 100px;
+    text-align: center;
+
+}
+
+.not-fixed{
+    position:relative;
+
+}
+.twitter-square:after{
+    background-image: url('../images/twiter_icon.png');
+    background-size: 50px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content:"";
+}
+.facebook-square:after{
+
+    background-image: url('../images/fb_icon.png');
+    background-size: 50px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content:"";
+
+
+}
+.facebook-square{
+    width: 20px;
+    height: 20px;
+}
+.social:hover {
+    -ms-transform: scale(1.1);
+
+    transform: scale(1.1);
+}
+.social {
+    transform: scale(0.8);
+    /* Browser Variations: */
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+
+.sticky{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index:1;
+}
+.hero-image{
+
+position: relative;
+}
+
+#navbar{
+    width: 100%;
+
+}
+
